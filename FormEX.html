@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastro do Astronalta</h1>
+
+    <form action="">
+        <label for="Nome">Nome:</label>
+        <input type="text" name="Nome" id="Nome">
+       <br><br>
+        <label for="mail">E-mail:</label>
+        <input type="email" name="mail" id="mail">
+        
+        
+        <label for="pw">Password:</label>
+        <input type="password" name="pw" id="pw">
+<br><br>
+        <label for="data">Data de nascimento:</label>
+        <input type="date" name="data" id="data">
+        
+        <label for="foto">Foto:</label>
+        <input type="file" name="foto" id="foto">
+        <br><br>
+        
+        <label for="país">Nacionalidade:</label>
+        <select name="país" id="país">
+          <option value="Brasil">Brasileira
+          <option value="EUA">Norte-americana
+          <option value="Canadá">Canadense
+          <option value="Argentina">Argentina
+          <option value="Chile">Chilena
+
+          </select>
+        
+          
+        </datalist>
+        
+
+        <label for="genero">Gênero:</label>
+
+        <label for="masc">Masculino</label>
+        <input type="radio" name="genero" id="masc" value="masc">
+
+        <label for="fem">Feminino</label>
+        <input type="radio" name="genero" id="fem" value="fem">
+
+        <label for="Outro">Outro</label>
+        <input type="radio" name="genero" id="Outro" value="Outro">
+
+        <br><br>
+
+            <p> Principais Qualidades:</p>  
+        <label for="Int">Inteligência </label>
+        <input type="checkbox" name="Int" id="Int" value="Int">|
+        <label for="Res">Resiliência </label>
+        <input type="checkbox" name="Res" id="Res" value="Res">|
+        <label for="Prep">Preparo Físico </label>
+        <input type="checkbox" name="Prep" id="Prep" value="Prep">|
+        <label for="Edu">Educação </label>
+        <input type="checkbox" name="Edu" id="Edu" value="Edu">|
+
+        <br><br>
+
+        <textarea name="just" id="just" cols="30" rows="10" placeholder="Porque você gostaria de ser um astronalta?"></textarea>
+        <br><br>
+
+        
+
+        <label for="vontade">Qual o nível de sua vontade de se tornar astronalta?</label>
+        <input type="range" name="vontade" id="vontade" min="0" max="100">
+
+        <br>
+
+        <input type="submit" value="Criar Perfil">
+    </form>
+</body>
+</html>
