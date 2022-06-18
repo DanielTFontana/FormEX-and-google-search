@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+        <a href="SiteEX.html"><img src="./logo.png" alt="logo"></a>
+        <a href="SiteEX.html">Home</a>|
+        <a href="SiteEX2.html">The Spaceships</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <h1>
+            Hire Us Now!
+        </h1>
+        <p>
+            Leave a message to request one of  our services and we will get back to you soon as possible.
+        </p>
+
+        <form action="">
+        <section>
+
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+
+        <label for="mail">E-mail:</label>
+        <input type="email" name="mail" id="mail" required>
+
+        </section>
+
+        <br>
+
+        
+        <section>
+
+        <label for="ship">Spaceship:</label>
+        <select name="ship" id="ship">
+        <option name="ship" value="Falcon9">Falcon 9</option>
+        <option name="ship" value="Heavy Falcon">Heavy Falcon</option>
+        </select>
+    |
+        <label for="service">Type of Service:</label>
+        <input type="search" name="service" id="service" list="services">
+        <datalist id="services" name="service">
+            <option value="Normal">Normal</option>
+            <option value="PLUS">PLUS</option>
+            <option value="ULTRA">ULTRA</option>
+        </datalist>
+        
+        </section>
+
+        <br>
+
+        <input type="submit" value="Send Message">
+    </form>
+
+    </main>
+</body>
+</html>

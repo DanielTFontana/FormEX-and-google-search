@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    background-color:rgb(247, 241, 234);
+    
+}
+.post-container{
+    border-radius: 2px;
+    width: 70%;
+    height: 100%;
+    margin: 0px auto 0px auto;
+    background-color: #fffafa;
+}
+.post-container div.post-content{
+    width: 90%;
+}
+
+.post-container .post{
+    margin-bottom: 20px;
+}
+div{
+    height: 180px;
+    text-align: justify;    
+    
+}
+.date{
+    padding-top: 5px;
+    font-family: 'Roboto';
+    text-align: left;
+    color: blue;
+}
+h1{
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+p{  
+    font-family: 'Open sans';
+    margin-left: 20px;
+}
